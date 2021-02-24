@@ -4,94 +4,192 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <title>Restaurant List</title>
 </head>
 <body>
 <header>
-  <h1 class="main-title">Restaurants</h1>
-
+  <h1 class="main-title">Restaurants Around Us</h1>
 </header>
 
 <main>
-  <ul>
-    <h2>Piliscsaba</h2>
-    <li class="items"><a href="https://www.facebook.com/szentistvanpizza" target="_blank">Szent István</a></li>
-    <div class="description">
-      (26) 374-807 <br>
-      (20) 426-5486 <br>
-      (30) 352-0509 <br>
-      (70) 651-0009 <br>
-      Nyitva: K-V: 11- H: zárva
-    </div>
-    <li class="items"><a href="https://www.facebook.com/F%C3%A9nyesliget-K%C3%A1v%C3%A9z%C3%B3-233910049985228/" target="_blank">Fényesliget</a></li>
-    <div class="description">
-      (26) 952-360 <br>
-      Nyitva: H-P: 9- Sz: 10- V: zárva
-    </div>
+  <h2>Piliscsaba</h2>
+    <div class="container">
+      <div class="center">
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small #ccc darken-3">
+              <div class="card-content black-text">
+                <span class="card-title blue-text">Szent István</span>
+                <p>(26) 374-807 <br>
+                  (20) 426-5486 <br>
+                  (30) 352-0509 <br>
+                  (70) 651-0009 <br>
+                  Nyitva: K-V: 11- H: zárva</p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.facebook.com/szentistvanpizza" target="_blank">Szent István</a>
+            </div>
+        </div>
+      </div>
 
+    <div class="col s12 m6 l3">
+        <div class="card small #ccc darken-3">
+          <div class="card-content black-text">
+            <span class="card-title blue-text">Fényesliget</span>
+            <p>(26) 952-360 <br>
+              Nyitva: H-P: 9- Sz: 10- V: zárva
+          </div>
+          <div class="card-action">
+            <a href="https://www.facebook.com/F%C3%A9nyesliget-K%C3%A1v%C3%A9z%C3%B3-233910049985228/" target="_blank">Fényesliget</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
     <h2>Pilisvörösvár</h2>
-    <li class="items"><a href="https://www.fetteretterem.hu/" target="_blank">Fetter</a></li>
-    <div class="description">
-      (26) 330-473 <br>
-      (20) 922-8999 <br>
-      Nyitva: K-V: 11- H: zárva <br>
-      Piliscsaba: 500 HUF (3000 felett ingyenes)
-    </div>
-    <li class="items"><a href="#" target="_blank">Aranyló</a></li>
-    <div class="description">
-      (26) 333-166 <br>
-      (30) 333-1660 <br>
-      Nyitva: K-V: 11- H: zárva <br>
-      Piliscsaba: 450 HUF (4000 felett ingyenes)
-    </div>
-    <li class="items"><a href="https://stube.hu/" target="_blank">Stube</a></li>
-    <div class="description">
-      (26) 611-660 <br>
-      (20) 255-0818 <br>
-      Nyitva: K-V: 10- H: zárva <br>
-      Piliscsaba: 450 HUF (min 5000 rendelés)
-    </div>
-    <li class="items"><a href="http://www.gazdakor.hu/" target="_blank">Gazdakör</a></li>
-    <div class="description">
-      (26) 334-304 <br>
-      (20) 934-2808 <br>
-      Nyitva: K-P, V: 11-15 Sz: 11-18 H: zárva <br>
-      Piliscsaba: ? Szépkártya: ? 350 HUF (min 5000 rendelés)
-    </div>
-    <li class="items"><a href="http://www.gondolahotel.hu/gondola/indexhu.html" target="_blank">Gondola</a></li>
-    <div class="description">
-      (26) 331-737 <br>
-      (30) 380-0400 <br>
-      Nyitva: H-V: 11- <br>
-      Piliscsaba: 500 HUF (min 5000 rendelés)
-    </div>
+  
+    <div class="container">
+      <div class="center">
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card small #ccc darken-3">
+              <div class="card-content black-text">
+                <span class="card-title blue-text">Fetter</span>
+                <p>(26) 330-473 <br>
+                  (20) 922-8999 <br>
+                  Nyitva: K-V: 11- H: zárva <br>
+                  Piliscsaba: 500 HUF (3000 felett ingyenes)</p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.fetteretterem.hu/" target="_blank">Fetter</a>
+              </div>
+            </div>
+          </div>
 
-    <h2>Solymár</h2>
-    <li class="items"><a href="https://retro-cafe.webnode.hu/" target="_blank">Retro Café</a></li>
-    <div class="description">
-      (20) 221-0129 <br>
-      Nyitva: V-Cs: 10- P-Sz: 10:30- <br>
-      Piliscsaba: 500 HUF (3500 felett ingyenes)
+    <div class="col s12 m6 l3">
+        <div class="card small #ccc darken-3">
+          <div class="card-content black-text">
+            <span class="card-title blue-text">Aranyló</span>
+            <p>(26) 333-166 <br>
+              (30) 333-1660 <br>
+              Nyitva: K-V: 11- H: zárva <br>
+              Piliscsaba: 450 HUF (4000 felett ingyenes)</p>
+          </div>
+          <div class="card-action">
+            <a href="http://www.aranylo.hu/etlapunk.html" target="_blank">Aranyló</a>
+          </div>
+        </div>
+      </div>
+    <div class="col s12 m6 l3">
+        <div class="card small #ccc darken-3">
+          <div class="card-content black-text">
+            <span class="card-title blue-text">Stube</span>
+            <p>(26) 611-660 <br>
+              (20) 255-0818 <br>
+              Nyitva: K-V: 10- H: zárva <br>
+              Piliscsaba: 450 HUF (min 5000 rendelés)</p>
+          </div>
+          <div class="card-action">
+            <a href="https://stube.hu/" target="_blank">Stube</a>
+          </div>
+        </div>
+      </div>
+    <div class="col s12 m6 l3">
+        <div class="card small #ccc darken-3">
+          <div class="card-content black-text">
+            <span class="card-title blue-text">Gazdakör</span>
+            <p>(26) 334-304 <br>
+              (20) 934-2808 <br>
+              Nyitva: K-P, V: 11-15 Sz: 11-18 H: zárva <br>
+              Piliscsaba: ? Szépkártya: ? 350 HUF (min 5000 rendelés)</p>
+          </div>
+          <div class="card-action">
+            <a href="http://www.gazdakor.hu/" target="_blank">Gazdakör</a>
+          </div>
+        </div>
+      </div>
+    <div class="col s12 m6 l3">
+        <div class="card small #ccc darken-3">
+          <div class="card-content black-text">
+            <span class="card-title blue-text">Gondola</span>
+            <p>(26) 331-737 <br>
+              (30) 380-0400 <br>
+              Nyitva: H-V: 11- <br>
+              Piliscsaba: 500 HUF (min 5000 rendelés)</p>
+          </div>
+          <div class="card-action">
+            <a href="http://www.gondolahotel.hu/gondola/indexhu.html" target="_blank">Gondola</a>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <h2>Pilisszentiván</h2>
-    <li class="items"><a href="https://www.gyemant-etterem.hu/" target="_blank">Gyémánt</a></li>
-    <div class="description">
-      (26) 367-365 <br>
-      (20) 254-1254 <br>
-      Nyitva: H-V: 11- <br>
-      Piliscsaba: 650 HUF (min 3000 rendelés)
+  </div>
+       
+  
+  <div class="container center">
+      <h2>Solymár</h2>
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card small #ccc darken-3">
+            <div class="card-content black-text">
+              <span class="card-title blue-text">Retro Café</span>
+              <p>(20) 221-0129 <br>
+                Nyitva: V-Cs: 10- P-Sz: 10:30- <br>
+                Piliscsaba: 500 HUF (3500 felett ingyenes)</p>
+            </div>
+            <div class="card-action">
+              <a href="https://retro-cafe.webnode.hu/" target="_blank">Retro Café</a>
+          </div>
+      </div>
     </div>
-
-    <h2>Dorog</h2>
-    <li class="items"><a href="https://www.netpincer.hu/en/restaurant/k4ei/zorba-gyrosbar?r=1" target="_blank">Zorba Gyrosbár</a></li>
-    <div class="description">
-      (30) 556-6755 <br>
-      Nyitva: H-Sz: 10- V: 11- <br>
-      Piliscsaba: 600 HUF
+  </div>
+  </div>
+    
+    <div class="container center">
+      <h2>Pilisszentiván</h2>
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card small #ccc darken-3">
+            <div class="card-content black-text">
+              <span class="card-title blue-text">Gyémánt</span>
+              <p>(26) 367-365 <br>
+                (20) 254-1254 <br>
+                Nyitva: H-V: 11- <br>
+                Piliscsaba: 650 HUF (min 3000 rendelés)</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.gyemant-etterem.hu/" target="_blank">Gyémánt</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </ul>
+    
+    
+    <div class="container center">
+      <h2>Dorog</h2>
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <div class="card small #ccc darken-3">
+            <div class="card-content black-text">
+              <span class="card-title blue-text">Zorba Gyrosbár</span>
+              <p>(30) 556-6755 <br>
+                Nyitva: H-Sz: 10- V: 11- <br>
+                Piliscsaba: 600 HUF</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.netpincer.hu/en/restaurant/k4ei/zorba-gyrosbar?r=1" target="_blank">Zorba Gyrosbár</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 </main>
 </body>
 </html>

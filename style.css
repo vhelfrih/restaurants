@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); */
+ 
 *,
 *:hover,
 *:focus
@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #EAB373;
+  background-color: #f0f4c3;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -27,24 +27,4 @@ h1, h2 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 0.6rem;
-}
-
-
-.items {
-  margin: 1.2rem;
-  font-size: 1.6rem;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 600;
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.description {
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 1rem;
 }
